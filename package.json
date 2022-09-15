@@ -1,11 +1,14 @@
 {
   "name": "salad-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Goes to a random Wikipedia salad in the web browser.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js"
+  },
+  "bin": {
+    "salad-cli": "src/index.js"
   },
   "repository": {
     "type": "git",
