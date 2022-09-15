@@ -1,13 +1,16 @@
 {
   "name": "salad-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Takes you to a Wikipedia article about a random type of salad in the web browser.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js"
   },
-  "bin": "src/index.js",
+  "bin": {
+    "salad-cli": "src/index.js",
+    "sctl": "src/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Vukkyy/salad-cli.git"
