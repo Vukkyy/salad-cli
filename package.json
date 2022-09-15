@@ -1,6 +1,6 @@
 {
   "name": "salad-cli",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Takes you to a Wikipedia article about a random type of salad in the web browser.",
   "main": "src/index.js",
   "scripts": {
