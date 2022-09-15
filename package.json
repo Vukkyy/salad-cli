@@ -1,0 +1,23 @@
+{
+  "name": "salad-cli",
+  "version": "1.0.0",
+  "description": "Goes to a random Wikipedia salad in the web browser.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vukkyy/salad-cli.git"
+  },
+  "author": "Vukky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vukkyy/salad-cli/issues"
+  },
+  "homepage": "https://github.com/Vukkyy/salad-cli#readme",
+  "dependencies": {
+    "open": "^8.4.0"
+  }
+}
